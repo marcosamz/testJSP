@@ -29,7 +29,6 @@
         <jsp:include page="default/footer.jsp" />
         <script>
             var options = {
-
             url: function(phrase) {
               return "ajax/getUsers.jsp";
             },
