@@ -45,32 +45,27 @@
             </div>
         </header>
         <main>
-            <div class="mm-tabs">
-                <div class="mm-tab">
-                    <input type="radio" id="tab-1" name="tab-group-1" checked>
-                    <label for="tab-1">Tab One</label>
-                    <div class="mm-content">
-                        <p>Stuff for Tab One</p>
-                    </div> 
+            
+<!--            <div class="mm-tabs">
+                <div class="mm-tabs-header">
+                    <div class="mm-border"></div>
+                    <ul>
+                        <li class="mm-active"><a href="#tab-1" tab-id="1" ripple="ripple" ripple-color="#FFF">Tab 1</a></li>
+                        <li><a href="#tab-2" tab-id="2" ripple="ripple" ripple-color="#FFF">Tab 2</a></li>
+                        <li><a href="#tab-3" tab-id="3" ripple="ripple" ripple-color="#FFF">Tab 3</a></li>
+                    </ul>
+                    <nav class="mm-tabs-nav">
+                        <i id="prev" ripple="ripple" ripple-color="#FFF" class="material-icons">&#xE314;</i>
+                        <i id="next" ripple="ripple" ripple-color="#FFF" class="material-icons">&#xE315;</i>
+                    </nav>
                 </div>
-                <div class="mm-tab">
-                    <input type="radio" id="tab-2" name="tab-group-1">
-                    <label for="tab-2">Tab Two</label>
-                    <div class="mm-content">
-                        <p>Stuff for Tab Two</p>
-                        <img src="http://placekitten.com/200/100">
-                    </div> 
+                <div class="mm-tabs-content">
+                    <div tab-id="1" class="mm-tab mm-active">Tabbed Content 1</div>
+                    <div tab-id="2" class="mm-tab">Tabbed Content 2</div>
+                    <div tab-id="3" class="mm-tab">Tabbed Content 3</div>
                 </div>
-                <div class="mm-tab">
-                    <input type="radio" id="tab-3" name="tab-group-1">
-                    <label for="tab-3">Tab Three</label>
-                    <div class="mm-content">
-                        <p>Stuff for Tab Three</p>
-                        <img src="http://placedog.com/200/100">
-                    </div> 
-                </div>
-
-            </div>
+            </div>-->
+                
         </main>
         <footer>
             
@@ -80,5 +75,6 @@
         <script src="assets/js/jquery.easy-autocomplete.js"></script>
         <script src="assets/js/init.js"></script>
         <script src="assets/js/dashboard.js"></script>
+        <script src="assets/js/tabs.js"></script>
     </body>
 </html>
