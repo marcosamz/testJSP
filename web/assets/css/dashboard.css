@@ -29,6 +29,10 @@ main, footer {
     .mm-leftbar, main, footer {
         padding-left: 0;
     }
+    .a {
+        overflow: hidden;
+        text-indent: -9999px; 
+    }
 }
 
 .mm-amenu {
