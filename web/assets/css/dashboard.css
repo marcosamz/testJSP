@@ -1,0 +1,33 @@
+.mm-topbar {
+    position:fixed;
+    max-height: 35px;
+    height: 35px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.mm-leftbar {
+    position:fixed;
+    display: none;
+    height: 100%;
+    width: 300px;
+    max-width: 300px;
+    top: 35px;
+    left: 0;
+}
+
+.mm-amenu {
+    display: inline;
+    padding: 5px;
+    width: 300px;
+}
+
+.dark-primary-color    { background: #303F9F; }
+.default-primary-color { background: #3F51B5; }
+.light-primary-color   { background: #C5CAE9; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #009688; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
