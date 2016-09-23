@@ -17,7 +17,7 @@
         <link href="assets/css/ace/ace-editor.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/easy-autocomplete.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/dashboard.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/tabs.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/mm1-tabs.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <header>
@@ -27,7 +27,20 @@
                 </div>
                 <div class="mm-subtopbar">
                     <div class="mm-tabs-topbar">
-                        <a id="ac_save" href="#" class="waves-effect waves-light white-text"><i class="material-icons">cloud</i></a>
+                        <ul class="tab">
+                            <li class="dialog grey lighten-4">
+                                <a href="#" class="tablinks" onclick="openCity(event, 'London')">London</a>
+                                <div onclick="" class="close-thin"></div>
+                            </li>
+                            <li class="dialog grey lighten-4">
+                                <a href="#" class="tablinks" onclick="openCity(event, 'Paris')">Paris</a>
+                                <div onclick="" class="close-thin"></div>
+                            </li>
+                            <li class="dialog grey lighten-4">
+                                <a href="#" class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</a>
+                                <div onclick="" class="close-thin"></div>
+                            </li>
+                        </ul>
                     </div>
                     <div class="mm-buttons-topbar">
                         <a id="ac_save" href="#" class="waves-effect waves-light white-text right"><i class="material-icons">lock_outline</i></a>
@@ -45,27 +58,7 @@
             </div>
         </header>
         <main>
-            
-<!--            <div class="mm-tabs">
-                <div class="mm-tabs-header">
-                    <div class="mm-border"></div>
-                    <ul>
-                        <li class="mm-active"><a href="#tab-1" tab-id="1" ripple="ripple" ripple-color="#FFF">Tab 1</a></li>
-                        <li><a href="#tab-2" tab-id="2" ripple="ripple" ripple-color="#FFF">Tab 2</a></li>
-                        <li><a href="#tab-3" tab-id="3" ripple="ripple" ripple-color="#FFF">Tab 3</a></li>
-                    </ul>
-                    <nav class="mm-tabs-nav">
-                        <i id="prev" ripple="ripple" ripple-color="#FFF" class="material-icons">&#xE314;</i>
-                        <i id="next" ripple="ripple" ripple-color="#FFF" class="material-icons">&#xE315;</i>
-                    </nav>
-                </div>
-                <div class="mm-tabs-content">
-                    <div tab-id="1" class="mm-tab mm-active">Tabbed Content 1</div>
-                    <div tab-id="2" class="mm-tab">Tabbed Content 2</div>
-                    <div tab-id="3" class="mm-tab">Tabbed Content 3</div>
-                </div>
-            </div>-->
-                
+               
         </main>
         <footer>
             
