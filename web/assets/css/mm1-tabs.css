@@ -21,14 +21,14 @@ ul.tab li a {
     display: inline-block;
     color: black;
     text-align: center;
-    padding: 5px 5px;
-    /*text-decoration: none;*/
+    padding: 2px 5px;
     transition: 0.3s;
     font-size: 12px;
     width: 80px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-top: 2px solid #fff;
+    border-top: 2px solid #0089ec;
 }
 
 /* Change background color of links on hover */
@@ -38,29 +38,32 @@ ul.tab li a:hover {
 
 /* Create an active/current tablink class */
 ul.tab li a:focus, .active {
-    background: #eaecef;
-    border-top: 2px solid #0089ec;
+    background: #eeeeee;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.mm-active {
+    background: #eaecef;
+    border-top: 2px solid #0089ec;
 }
 
 /* Style the tab content */
 .tabcontent {
     display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
+    padding: 12px;
     border-top: none;
     -webkit-animation: fadeEffect 1s;
     animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
 
 /* Close Button */
-
 [class*='close-'] {
     color: #777;
     font: 12px/100% arial, sans-serif;
     position: absolute;
-    right: 2px;
+    right: 3px;
     text-decoration: none;
     text-shadow: 0 1px 0 #fff;
     top: 1px;
