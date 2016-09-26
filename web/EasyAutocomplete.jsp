@@ -18,9 +18,7 @@
                 <div class="col s12">
                     <div class="row">
                         <div class="input-field col s12">
-                            <!--<i class="material-icons prefix">textsms</i>-->
                             <input type="text" id="txtEasyBuscar" placeholder="Buscar usuario...">
-                            <!--<label for="txtEasyBuscar">Autocomplete</label>-->
                             <ul class="autocomplete-content dropdown-content"></ul></div>
                     </div>
                 </div>
@@ -29,14 +27,10 @@
         <jsp:include page="default/footer.jsp" />
         <script>
             var options = {
-            url: function(phrase) {
+            url: function() {
               return "ajax/getUsers.jsp";
             },
 
-//            getValue: function(element) {
-//              return element.usuario;
-//            },
-//            
             getValue: "usuario",
             
             template: {
@@ -51,19 +45,6 @@
                     enabled: true
                 }
             },
-
-//            ajaxSettings: {
-//              dataType: "json",
-//              method: "POST",
-//              data: {
-//                dataType: "json"
-//              }
-//            },
-//
-//            preparePostData: function(data) {
-//              data.phrase = $("#txtEasyBuscar").val();
-//              return data;
-//            },
 
             requestDelay: 400
           };

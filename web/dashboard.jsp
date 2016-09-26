@@ -50,7 +50,7 @@
             </div>
             <div id="left-panel" class="mm-leftbar grey lighten-3">
                 <div class="grey lighten-4">
-                    <a href="#" class="waves-effect waves-light"><i class="material-icons right">add_box</i></a>
+                    <a href="#" onclick="generateEasyAutocomplete()" class="waves-effect waves-light"><i class="material-icons right">add_box</i></a>
                 </div>
                 <div id="tree-menu">
                     Left Bar
@@ -60,8 +60,8 @@
         <main>
             
             <div id="London" class="tabcontent">
-                <h3>London</h3>
-                <p>London is the capital city of England.</p>
+<!--                <h3>London</h3>
+                <p>London is the capital city of England.</p>-->
             </div>
 
             <div id="Paris" class="tabcontent">
@@ -81,8 +81,11 @@
         <script src="assets/js/materialize.min.js"></script>
         <script src="assets/js/ace/min/ace.js" type="text/javascript" charset="utf-8"></script>
         <script src="assets/js/jquery.easy-autocomplete.js"></script>
-        <script src="assets/js/init.js"></script>
         <script src="assets/js/dashboard.js"></script>
         <script src="assets/js/mm1-tabs.js"></script>
+        <script src="assets/js/init.js"></script>
+        <script>
+            
+        </script>
     </body>
 </html>
