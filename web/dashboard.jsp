@@ -51,6 +51,7 @@
             <div id="left-panel" class="mm-leftbar grey lighten-3">
                 <div class="grey lighten-4">
                     <a href="#" onclick="generateEasyAutocomplete()" class="waves-effect waves-light"><i class="material-icons right">add_box</i></a>
+                    <a href="#" onclick="showSelectedItemEasy()" class="waves-effect waves-light"><i class="material-icons right">save</i></a>
                 </div>
                 <div id="tree-menu">
                     Left Bar
@@ -84,8 +85,5 @@
         <script src="assets/js/dashboard.js"></script>
         <script src="assets/js/mm1-tabs.js"></script>
         <script src="assets/js/init.js"></script>
-        <script>
-            
-        </script>
     </body>
 </html>

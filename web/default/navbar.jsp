@@ -29,5 +29,5 @@
 </ul>
 
 <script>
-    $(".button-collapse").sideNav();
+//    $(".button-collapse").sideNav();
 </script>

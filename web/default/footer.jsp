@@ -10,3 +10,4 @@
 <script src="assets/js/ace/min/ace.js" type="text/javascript" charset="utf-8"></script>
 <script src="assets/js/jquery.easy-autocomplete.js"></script>
 <script src="assets/js/init.js"></script>
+<script src="assets/js/controllers/salida.js"></script>

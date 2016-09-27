@@ -8,6 +8,10 @@
         <servlet-name>LoginController</servlet-name>
         <servlet-class>app.test.controllers.LoginController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>TestDataController</servlet-name>
+        <servlet-class>app.test.controllers.TestDataController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>UsuarioController</servlet-name>
         <url-pattern>/UsuarioController</url-pattern>
@@ -23,6 +27,10 @@
     <servlet-mapping>
         <servlet-name>LoginController</servlet-name>
         <url-pattern>/LoginController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TestDataController</servlet-name>
+        <url-pattern>/TestDataController</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

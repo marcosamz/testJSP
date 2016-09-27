@@ -31,7 +31,7 @@
                     <jsp:include page="modals/buscarSalidas.jsp"/>
                 </div>
                 <div class="input-field col s6">
-                    <a class="waves-effect waves-light btn left" onclick="saveSalida()"><i class="material-icons left">save</i>Guardar</a>
+                    <a class="waves-effect waves-light btn left" onclick="getData()"><i class="material-icons left">save</i>Guardar</a>
                 </div>
             </div>
         </header>
