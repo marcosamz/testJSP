@@ -51,7 +51,12 @@ getData = function () {
 //            console.log(data);
             valor = data;
             console.log(valor);
+            console.log(valor.Id);
+            console.log(valor.Nombre);
+            console.log(valor.Apellido);
+            console.log(valor.Email);
             
         }
     });
+    
 };

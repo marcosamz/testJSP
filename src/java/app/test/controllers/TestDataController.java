@@ -34,7 +34,7 @@ public class TestDataController extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("application/json;charset=UTF-8");
         Integer id = Integer.parseInt(request.getParameter("id"));
-        System.out.println("ID: "+id);
+//        System.out.println("ID: "+id);
         try {
             JSONObject data = JSONConverter.getJSONObject(
                     new UsuarioDAO().getFilter("id", id).get(0)
