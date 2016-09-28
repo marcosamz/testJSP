@@ -11,8 +11,8 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="assets/js/jquery-3.1.0.js"></script>
         <link href="assets/css/materialicons.css" rel="stylesheet">
-        <link href="assets/css/materialize.min.css"  rel="stylesheet">
-        <script src="assets/js/materialize.min.js"></script>
+        <link href="assets/css/materialize.css"  rel="stylesheet">
+        <script src="assets/js/materialize.js"></script>
         <script src="assets/js/init.js"></script>
     </head>
     <body>

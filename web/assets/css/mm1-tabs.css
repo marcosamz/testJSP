@@ -1,10 +1,12 @@
 /* Style the list */
 ul.tab {
     /*background: red;*/
+    position: fixed;
+    top: 0;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
     height: 25px;
     max-height: 25px;
 }
