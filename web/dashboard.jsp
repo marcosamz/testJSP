@@ -4,6 +4,7 @@
     Author     : Ing. Marcos Menéndez
 
 color verde #26a69a
+color narnaj #ee6e73
 
 --%>
 
