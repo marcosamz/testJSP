@@ -31,6 +31,9 @@ ul.tab li a {
     border-top-right-radius: 5px;
     border-top: 2px solid #fff;
     border-top: 2px solid #0089ec;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
 }
 
 /* Change background color of links on hover */
@@ -54,7 +57,9 @@ ul.tab li a:focus, .active {
 /* Style the tab content */
 .tabcontent {
     display: none;
-    padding: 12px;
+    overflow: auto;
+    height: calc(100% - 60px);
+    padding: 60px;
     border-top: none;
     -webkit-animation: fadeEffect 1s;
     animation: fadeEffect 1s; /* Fading effect takes 1 second */

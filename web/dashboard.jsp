@@ -33,15 +33,15 @@ color narnaj #ee6e73
                     <div class="mm-tabs-topbar">
                         <ul class="tab">
                             <li class="dialog grey lighten-4">
-                                <a href="#" class="tablinks" onclick="openContent(event, 'London')">London</a>
+                                <a href="#" class="tablinks" onclick="openContent(event, 'London')">London marcos</a>
                                 <div onclick="" class="close-thin"></div>
                             </li>
                             <li class="dialog grey lighten-4">
-                                <a href="#" class="tablinks" onclick="openContent(event, 'Paris')">Paris</a>
+                                <a href="#" class="tablinks" onclick="openContent(event, 'Paris')">Paris antonio</a>
                                 <div onclick="" class="close-thin"></div>
                             </li>
                             <li class="dialog grey lighten-4">
-                                <a href="#" class="tablinks" onclick="openContent(event, 'Tokyo')">Tokyo</a>
+                                <a href="#" class="tablinks" title="Tokyo menendez zambrano" onclick="openContent(event, 'Tokyo')">Tokyo menendez zambrano</a>
                                 <div onclick="" class="close-thin"></div>
                             </li>
                         </ul>
