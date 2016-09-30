@@ -194,5 +194,14 @@ color narnaj #ee6e73
         <script src="assets/js/dashboard.js"></script>
         <script src="assets/js/mm1-tabs.js"></script>
         <script src="assets/js/init.js"></script>
+        <script type="text/javascript">
+        //<![CDATA[
+        function modelesswin(url,mwidth,mheight){if(document.all&&window.print)
+        eval('window.showModelessDialog(url,"","help:0;dialogTop:50px;dialogLeft:50px;resizable:0;dialogWidth:'+mwidth+'px;dialogHeight:'+mheight+'px")')
+        else
+        eval('window.open(url,"","width='+mwidth+'px,height='+mheight+'px,resizable=1,scrollbars=1,left=20,top=20")')}
+        //]]>	
+        </script>
+
     </body>
 </html>
